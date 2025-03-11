@@ -1,0 +1,31 @@
+{
+  "specVersion": "1.0.0",
+  "metadata": {
+    "name": "test-prompt",
+    "author": 34398302,
+    "description": "My test prompt",
+    "tags": [
+      "testing"
+    ],
+    "modelCompatibility": [
+      "gpt-4"
+    ],
+    "dependencies": {},
+    "visibility": "public",
+    "createdAt": "2025-03-11T17:40:25.419Z",
+    "updatedAt": "2025-03-11T17:40:25.419Z"
+  },
+  "prompt": {
+    "template": "This is my test prompt {{test}}",
+    "variables": [
+      {
+        "name": "test",
+        "description": "test variable description",
+        "type": "string",
+        "required": false,
+        "options": []
+      }
+    ]
+  },
+  "extensions": {}
+}
