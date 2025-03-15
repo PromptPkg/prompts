@@ -1,0 +1,31 @@
+{
+  "specVersion": "1.0.0",
+  "metadata": {
+    "name": "srjrol-my-prompt",
+    "author": 34398302,
+    "description": "Testing prompt submission.",
+    "tags": [
+      "tests"
+    ],
+    "modelCompatibility": [
+      "gpt-4"
+    ],
+    "dependencies": {},
+    "visibility": "public",
+    "createdAt": "2025-03-15T19:54:08.193Z",
+    "updatedAt": "2025-03-15T19:54:08.193Z"
+  },
+  "prompt": {
+    "template": "Build a Svelte 5 runes based app called {{app_name}} and use strict TS and asy11 compatibility.",
+    "variables": [
+      {
+        "name": "app_name",
+        "description": "app name",
+        "type": "string",
+        "required": true,
+        "options": []
+      }
+    ]
+  },
+  "extensions": {}
+}
